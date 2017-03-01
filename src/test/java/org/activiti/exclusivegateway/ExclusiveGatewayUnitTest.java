@@ -29,7 +29,7 @@ public class ExclusiveGatewayUnitTest {
 	@Rule
 	public ActivitiRule activitiRule = new ActivitiRule();
 
-	@Test
+//	@Test
 	@Deployment(resources = {"org/activiti/test/exclusivegateway/ExclusiveGateway.bpmn"})
 	public void test() throws InterruptedException {
 		
